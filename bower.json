@@ -17,6 +17,7 @@
     "paper-progress": "Polymer/paper-progress#master",
     "paper-radio-button": "Polymer/paper-radio-button#master",
     "paper-radio-group": "Polymer/paper-radio-group#master",
+    "paper-ripple": "Polymer/paper-ripple#master",
     "paper-shadow": "Polymer/paper-shadow#master",
     "paper-slider": "Polymer/paper-slider#master",
     "paper-tabs": "Polymer/paper-tabs#master",
