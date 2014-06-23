@@ -17,7 +17,7 @@ subject to an additional IP rights grant found at http://polymer.github.io/PATEN
 
     <script src="../platform/platform.js"></script>
     
-    <link rel="import" href="../sampler-scaffold/sampler-scaffold.html">
+    <link rel="import" href="../sampler-scaffold2/sampler-scaffold.html">
     <link rel="import" href="../font-roboto/roboto.html">
     <link rel="import" href="../core-item/core-item.html">
     <link rel="import" href="../core-menu/core-submenu.html">
@@ -25,7 +25,7 @@ subject to an additional IP rights grant found at http://polymer.github.io/PATEN
     <style shim-shadowdom>
 
       body {
-        font-family: RobotoDraft, 'Helvetica Neue', Helvetica, Arial;
+        font-family: RobotoDraft, sans-serif;
         color: #333;
         margin: 0;
         -webkit-user-select: none;
@@ -36,45 +36,6 @@ subject to an additional IP rights grant found at http://polymer.github.io/PATEN
         -webkit-touch-callout: none;
       }
       
-      sampler-scaffold::shadow [main] core-toolbar {
-        background-color: #3367d6;
-        color: #fff;
-      }
-      
-      sampler-scaffold::shadow [drawer] core-toolbar {
-        background-color: #4285f4;
-      }
-      
-      sampler-scaffold::shadow #card.move-up {
-        transition: 0.38s -webkit-transform cubic-bezier(0.4, 0.0, 0.2, 1);
-        transition: 0.38s transform cubic-bezier(0.4, 0.0, 0.2, 1);
-      }
-      
-      sampler-scaffold::shadow #card {
-        box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.26);
-        transition: box-shadow 0.28s cubic-bezier(0.4, 0, 0.2, 1);
-      }
-      
-      sampler-scaffold::shadow #card:hover {
-        box-shadow: 0 12px 15px 0 rgba(0, 0, 0, 0.24);
-      }
-      
-      sampler-scaffold::shadow core-icon-button.action-button {
-        position: absolute;
-        right: 14px;
-        bottom: -28px;
-        width: 56px;
-        height: 56px;
-        border-radius: 28px;
-        padding: 16px;
-        box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.26);
-        background-color: #db4437 !important;
-      }
-      
-      sampler-scaffold::shadow .action-button:hover:not(:active) {
-        box-shadow: 0 8px 17px 0 rgba(0, 0, 0, 0.2);
-      }
-      
     </style>
 
   </head>
@@ -83,47 +44,37 @@ subject to an additional IP rights grant found at http://polymer.github.io/PATEN
 
     <sampler-scaffold label="Paper Elements">
     
-      <core-item label="Checkbox" tag="paper-checkbox" url="../paper-checkbox/demo.html" src="code.png"></core-item>
+      <core-item label="Checkbox" tag="paper-checkbox" url="../paper-checkbox/demo.html"></core-item>
 
-      <core-item label="Radio Button" tag="paper-radio-button" url="../paper-radio-group/demo.html" src="code.png"></core-item>
+      <core-item label="Radio Button" tag="paper-radio-button" url="../paper-radio-group/demo.html"></core-item>
 
-      <core-item label="Toggle Button" tag="paper-toggle-button" url="../paper-toggle-button/demo.html" src="code.png"></core-item>
+      <core-item label="Toggle Button" tag="paper-toggle-button" url="../paper-toggle-button/demo.html"></core-item>
       
-      <core-item label="Input" tag="paper-input" url="../paper-input/demo.html" src="code.png"></core-item>
+      <core-item label="Input" tag="paper-input" url="../paper-input/demo.html"></core-item>
       
-      <!-- <core-item label="Ripple Effect" tag="paper-ripple" url="../paper-ripple/demo.html" src="code.png"></core-item> -->
+      <!-- <core-item label="Ripple Effect" tag="paper-ripple" url="../paper-ripple/demo.html"></core-item> -->
       
-      <core-item label="Toolbar" tag="core-toolbar" url="demos/core-toolbar.html" src="code.png"></core-item>
+      <core-item label="Toolbar" tag="core-toolbar" url="demos/core-toolbar.html"></core-item>
       
-      <core-item label="Progress Bar" tag="paper-progress" url="../paper-progress/demo.html" src="code.png"></core-item>
+      <core-item label="Scroll Header Panel" tag="core-scroll-header-panel" url="../core-scroll-header-panel/demo.html"></core-item>
       
-      <core-item label="Slider" tag="paper-slider" url="../paper-slider/demo.html" src="code.png"></core-item>
+      <core-item label="Progress Bar" tag="paper-progress" url="../paper-progress/demo.html"></core-item>
       
-      <core-item label="Tabs" tag="paper-tabs" url="../paper-tabs/demo.html" src="code.png"></core-item>
+      <core-item label="Slider" tag="paper-slider" url="../paper-slider/demo.html"></core-item>
       
-      <core-item label="Button" tag="paper-button" url="../paper-button/demo.html" src="code.png"></core-item>
+      <core-item label="Tabs" tag="paper-tabs" url="../paper-tabs/demo.html"></core-item>
+      
+      <core-item label="Button" tag="paper-button" url="../paper-button/demo.html"></core-item>
 
-      <core-item label="Icon Button" tag="paper-icon-button" url="../paper-icon-button/demo.html" src="code.png"></core-item>
+      <core-item label="Icon Button" tag="paper-icon-button" url="../paper-icon-button/demo.html"></core-item>
 
-      <core-item label="FAB" tag="paper-fab" url="../paper-fab/demo.html" src="code.png"></core-item>
+      <core-item label="FAB" tag="paper-fab" url="../paper-fab/demo.html"></core-item>
       
-      <core-item label="Dialog" tag="paper-dialog" url="../paper-dialog/demo.html" src="code.png"></core-item>
+      <core-item label="Dialog" tag="paper-dialog" url="../paper-dialog/demo.html"></core-item>
       
-      <core-item label="Shadow" tag="paper-shadow" url="../paper-shadow/demo.html" src="code.png"></core-item>
+      <core-item label="Shadow" tag="paper-shadow" url="../paper-shadow/demo.html"></core-item>
       
-      <core-item label="Toast" tag="paper-toast" url="../paper-toast/demo.html" src="code.png"></core-item>
-      
-      <!-- <core-submenu label="Toolbar & Scrolling" tag="core-header-panel" url="demos/core-header-panel/demo1.html" src="code.png">
-      
-        <core-item label="Demo1" tag="core-header-panel" url="demos/core-header-panel/demo1.html"></core-item>
-      
-        <core-item label="Demo2" tag="core-header-panel" url="demos/core-header-panel/demo2.html"></core-item>
-        
-        <core-item label="Demo3" tag="core-header-panel" url="demos/core-header-panel/demo3.html"></core-item>
-        
-        <core-item label="Demo4" tag="core-header-panel" url="demos/core-header-panel/demo4.html"></core-item>
-        
-      </core-submenu> -->
+      <core-item label="Toast" tag="paper-toast" url="../paper-toast/demo.html"></core-item>
       
     </sampler-scaffold>
   
