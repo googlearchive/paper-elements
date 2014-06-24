@@ -21,6 +21,7 @@
     "paper-tabs": "Polymer/paper-tabs#master",
     "paper-toast": "Polymer/paper-toast#master",
     "paper-toggle-button": "Polymer/paper-toggle-button#master",
+    "paper-item": "Polymer/paper-item#master",
     "sampler-scaffold": "Polymer/sampler-scaffold#master"
   }
 }
