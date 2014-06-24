@@ -4,6 +4,7 @@
   "dependencies": {
     "polymer": "Polymer/polymer#master",
     "font-roboto": "Polymer/font-roboto#master",
+    "core-icons": "Polymer/core-icons#master",
     "paper-button": "Polymer/paper-button#master",
     "paper-checkbox": "Polymer/paper-checkbox#master",
     "paper-dialog": "Polymer/paper-dialog#master",
