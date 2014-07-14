@@ -12,6 +12,7 @@
     "paper-fab": "Polymer/paper-fab#master",
     "paper-icon-button": "Polymer/paper-icon-button#master",
     "paper-input": "Polymer/paper-input#master",
+    "paper-item": "Polymer/paper-item#master",
     "paper-menu-button": "Polymer/paper-menu-button#master",
     "paper-progress": "Polymer/paper-progress#master",
     "paper-radio-button": "Polymer/paper-radio-button#master",
@@ -22,7 +23,6 @@
     "paper-tabs": "Polymer/paper-tabs#master",
     "paper-toast": "Polymer/paper-toast#master",
     "paper-toggle-button": "Polymer/paper-toggle-button#master",
-    "paper-item": "Polymer/paper-item#master",
     "sampler-scaffold": "Polymer/sampler-scaffold#master"
   }
 }
