@@ -7,7 +7,6 @@
     "core-icons": "Polymer/core-icons#master",
     "core-scroll-header-panel": "Polymer/core-scroll-header-panel#master",
     "paper-button": "Polymer/paper-button#master",
-    "paper-calculator": "Polymer/paper-calculator#master",
     "paper-checkbox": "Polymer/paper-checkbox#master",
     "paper-dialog": "Polymer/paper-dialog#master",
     "paper-fab": "Polymer/paper-fab#master",
