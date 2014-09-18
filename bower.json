@@ -9,7 +9,7 @@
     "paper-button": "Polymer/paper-button#master",
     "paper-checkbox": "Polymer/paper-checkbox#master",
     "paper-dialog": "Polymer/paper-dialog#master",
-    "paper-dropdown": "Polymer/paper-dropdown#master",
+    "paper-dropdown-menu": "Polymer/paper-dropdown-menu#master",
     "paper-fab": "Polymer/paper-fab#master",
     "paper-icon-button": "Polymer/paper-icon-button#master",
     "paper-input": "Polymer/paper-input#master",
