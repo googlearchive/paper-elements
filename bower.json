@@ -22,6 +22,7 @@
     "paper-ripple": "Polymer/paper-ripple#master",
     "paper-shadow": "Polymer/paper-shadow#master",
     "paper-slider": "Polymer/paper-slider#master",
+    "paper-spinner": "Polymer/paper-spinner#master",
     "paper-tabs": "Polymer/paper-tabs#master",
     "paper-toast": "Polymer/paper-toast#master",
     "paper-toggle-button": "Polymer/paper-toggle-button#master",
