@@ -1,6 +1,9 @@
 {
   "name": "paper-elements",
   "private": true,
+  "authors": [
+    "The Polymer Authors"
+  ],
   "dependencies": {
     "polymer": "Polymer/polymer#0.8-preview",
     "core-ajax": "Polymer/core-ajax#0.8-preview",
@@ -11,6 +14,7 @@
     "core-icons": "Polymer/core-icons#0.8-preview",
     "core-iconset": "Polymer/core-iconset#0.8-preview",
     "core-iconset-svg": "Polymer/core-iconset-svg#0.8-preview",
+    "core-image": "Polymer/core-image#0.8-preview",
     "core-media-query": "Polymer/core-media-query#0.8-preview",
     "core-meta": "Polymer/core-meta#0.8-preview",
     "core-overlay": "Polymer/core-overlay#0.8-preview",
