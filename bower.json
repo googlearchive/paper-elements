@@ -24,6 +24,7 @@
     "core-toolbar": "Polymer/core-toolbar#0.8-preview",
     "paper-ripple": "Polymer/paper-ripple#0.8-preview",
     "paper-shadow": "Polymer/paper-shadow#0.8-preview",
+    "paper-spinner": "Polymer/paper-spinner#0.8-preview",
     "paper-tabs": "Polymer/paper-tabs#0.8-preview"
   }
 }
