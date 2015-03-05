@@ -22,6 +22,7 @@
     "core-resizable": "Polymer/core-resizable#0.8-preview",
     "core-selector": "Polymer/core-selector#0.8-preview",
     "core-toolbar": "Polymer/core-toolbar#0.8-preview",
+    "font-roboto": "Polymer/font-roboto#master",
     "paper-ripple": "Polymer/paper-ripple#0.8-preview",
     "paper-shadow": "Polymer/paper-shadow#0.8-preview",
     "paper-spinner": "Polymer/paper-spinner#0.8-preview",
